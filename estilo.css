@@ -20,7 +20,6 @@ header article {
     display: block;
     margin: 0 auto;
     float: none;
-    background: rgba(0,0,0,0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -57,7 +56,7 @@ header article div {
     float: left;
 }
 header article div h1 {
-    color: #572364;
+    color: #821cff;
     font-size: 3em;
     text-align: left;
     font-weight: 700;
@@ -65,7 +64,7 @@ header article div h1 {
     letter-spacing: 0.025em;
 }
 header article div h2 {
-    color: #572364;
+    color: #821cff;
     font-size: 1.35em;
     text-align: left;
     font-weight: 600;
@@ -79,7 +78,7 @@ header #video-fondo {
     display: block;
     margin: 0 auto;
     float: none;
-    transform: scale(1.8);
+    transform: scale(1.9);
     position: absolute;
     top: 0;
     left: 0;
