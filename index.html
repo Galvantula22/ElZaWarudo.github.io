@@ -1,75 +1,111 @@
 <!DOCTYPE html>
-<html>
-<head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143164021-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Esteban Mayorga</title>
 
-  gtag('config', 'UA-143164021-1');
-</script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Mar de Kirá</title>
-	<link rel=StyleSheet href="Pagina.css" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Lora:700i&display=swap" rel="stylesheet">
-</head>
-<body background="playa.png">
-	<header>
-		<div id="encabezado">Apartaestudios Mar de Kirá</div>
-		<div id="sabanilla">Sabanilla-Pto Colombia</div>
-		<div id="info">
-			Apartaestudios amoblados y sin amoblar a 3 minutos de las playas del Country y Salgar, 10 Pto Velero y Caño dulce, 15 de Tubará, 20 Santa Verónica, 40 Galera zamba, volcán del totumo y 1 hora de Cartagena
-		</div>
-	</header>
-		<div id="fotos">
-			<div class="divs">
-				<img src="Fachada.jpeg" width="500px" height="250px">
-				<img src="Cocina2.jpeg" width="300px" height="300px">
-			</div>
-			<div class="divs">
-				<img src="Cuarto3.jpeg" width="300px" height="300px">
-			</div>
-			<div class="divs">
-				<img src="Ducha.jpeg" width="300px" height="300px">
-				<img src="Sala.jpeg" width="500px" height="250px">
-			</div>
-			<div class="divs">
-				<img src="Baño1.jpeg" width="250px" height="500px">
-				<img src="Cuarto.jpeg" width="500px" height="250px">
-			</div>
-			<div class="divs">
-				<img src="Cuarto2.jpeg" width="500px" height="250px">
-				<img src="Baño2.jpeg" width="250px" height="500px">
-			</div>
-			<div class="divs">
-				<img src="Cocina.jpeg" width="500px" height="250px">
-				<img src="Salida.jpeg" width="250px" height="500px">
-			</div>
-		</div>
-		<div id="info2">Desde $149.900 hasta 1.300.000. 1 habitación, 2 baños, sala comedor y terraza, garaje opcional, entorno campestre, a 5 minutos del mar, a 10 de Barranquilla 
-		</div>
-		<div id="mapa">
-			<div>
-				<div class="texto">
-					Donde nos ubicamos:
-				</div>
-				<div>
-					<form name="Cerca" action="Lugares.html">
-						<input class="botones" type="submit" value="Clic aqui para conocer lugares cercanos">
-					</form>
-				</div>
-			</div>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1425.0880314383508!2d-74.90364756783363!3d11.037889418513757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6f474fd6c264693!2zSGVsYWRvc-KAlENhc2EgRGVsIEFndWEg4oCUIEhpZWxv!5e0!3m2!1ses-419!2sco!4v1561138718143!5m2!1ses-419!2sco" width="500" height="420" frameborder="0" style="border:0;margin: 10px" allowfullscreen></iframe>
-		</div>
-	<footer id="fot">	
-		<form action="https://wa.me/573103467265">
-			<input type="image" name="go" src="whatsapp.png" width="70px" height="70px">
-		</form>
-		<div id="texto2">
-			 |3103467265|  |3212331076|  |3041052809|
-		</div>
-		<a href=""></a>
-	</footer>
-</body>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
+    
+    <!--CDN Normalize y Prefix Free-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    
+    <!--Los míos-->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <article>
+        <div class="container">
+           <figure>
+              <img src="Yo.jpg" alt="Alberto Angulo" width="150" height="150">
+            </figure>
+            <div>
+              <h1>Esteban Mayorga</h1>
+              <h2>BackEnd Developer</h2>
+            </div>
+        </div>
+      </article>
+      
+      <video id="video-fondo" width="100%" height="400" preload="auto" autoplay loop muted>
+          <source src="video-pexels.mp4" type="video/mp4">
+      </video>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h5>Perfil</h5>
+          <p>Extremadamente comprometido a seguir mejorando mas y mas mis habilidades para crecer como profesional, confiado en mi capacidad de solucionar problemas de software</p>
+        </article>
+
+        <article>
+          <h5>Contacto</h5>
+          <nav>
+            <a href="https://api.whatsapp.com/send?phone=573005482387" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+              <span>Hablemos por WhatsApp<Br></span>
+            </a>
+            <a href="tel:+573005482387">
+              <i class="fas fa-phone"></i>
+              <span>Llámame por Teléfono<Br></span>
+            </a>
+            <a href="https://www.instagram.com/adlasdasdasdlasda/" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <span>Sígueme en Instagram<Br></span>
+            </a>
+          </nav>
+        </article>
+
+        <article>
+          <h5>Educacion</h5>
+          <p>Barranquilla Universidad Autonoma del Caribe, 2018</p>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <h5>Habilidades</h5>
+          <ul>
+            <li>Gran habilidad aplicando la logica a los problemas.</li>
+            <li>Bueno trabajando tanto en grupo como en solitario.</li>
+            <li>Trabajar bajo presion y en muchas cosas a la vez (con un poco de energizante).</li>
+            <li>Capacidad de seguir instrucciones sin problema.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h5>Experiencia</h5>
+          
+          <div class="caja-info-works">
+            <h6>13 MONOS, GUIANDOLOS</h6>
+            <p>Enero 2019 - Julio 2019</p>
+            <ul>
+              <li>Haciendo un monton de trabajos en css.</li>
+              <li>Programando estructuras de datos.</li>
+              <li>Tirando calculo.</li>
+              <li>Programando en papel.</li>
+            </ul>
+          </div>
+
+          <div class="caja-info-works">
+            <h6>13 MONOS, YA SE GUIAN SOLOS</h6>
+            <p>Julio 2019 - enero 2020</p>
+            <ul>
+              <li>Usando frameworks y APIs.</li>
+              <li>Procesando software.</li>
+              <li>Bases de datos de Oracle.</li>
+              <li>Bases de datos en papel lol.</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
