@@ -98,7 +98,7 @@ main {
 
 main section:nth-child(1) {
     width: 35%;
-    height: 800px;
+    height: 750px;
     display: block;
     margin: 0;
     float: left;
@@ -182,7 +182,7 @@ main section:nth-child(1) article:nth-child(3) p {  }
 main section:nth-child(2) {
     color: white;
     width: 65%;
-    height: 800px;
+    height: 750px;
     display: block;
     margin: 0;
     float: left;
