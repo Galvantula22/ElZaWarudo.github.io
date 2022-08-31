@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background: #f0f0f0;
 }
 
 header {
@@ -98,7 +99,7 @@ main {
 
 main section:nth-child(1) {
     width: 35%;
-    height: 750px;
+    height: auto;
     display: block;
     margin: 0;
     float: left;
@@ -182,7 +183,7 @@ main section:nth-child(1) article:nth-child(3) p {  }
 main section:nth-child(2) {
     color: white;
     width: 65%;
-    height: 750px;
+    height: auto;
     display: block;
     margin: 0;
     float: left;
